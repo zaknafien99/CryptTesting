@@ -9,10 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        
+
         <Button x:Name="encrypt" Content="Encrypt" Margin="454,276,0,0" VerticalAlignment="Top" Click="encrypt_Click"/>
+        <Button x:Name="decrypt" Content="Decrypt" Margin="840,276,0,0" VerticalAlignment="Top" Click="decrypt_Click"/>
+
+        <TextBlock Text="Plain Text" Margin="314,180,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock Text="Cipher Text" Margin="700,180,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock Text="Decrypted Text" Margin="1086,180,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
         <TextBox x:Name="plainText" HorizontalAlignment="Left" Margin="314,206,0,0" Text="PlainText" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="cipherText" HorizontalAlignment="Left" Margin="700,218,0,0" Text="CipherText" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="cipherText" HorizontalAlignment="Left" Margin="700,206,0,0" Text="CipherText" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="decryptedText" HorizontalAlignment="Left" Margin="1086,206,0,0" Text="DecryptedText" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

@@ -19,5 +19,6 @@ namespace CryptTesting
 
 	private:
 		void encrypt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void decrypt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
